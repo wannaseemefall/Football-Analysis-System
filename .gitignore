@@ -1,0 +1,19 @@
+# Ignore virtual environment and IDE files
+.venv/
+.idea/
+
+# Ignore run-time folders
+runs/
+training/
+input_videos/
+models/
+output_videos/
+
+
+# Ignore specific files
+yolo_inference.py
+yolov8x.pt
+
+# Ignore Python cache
+__pycache__/
+*.pyc
